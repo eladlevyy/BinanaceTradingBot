@@ -1,6 +1,7 @@
 version: '3.7'
 
 services:
+  platform: linux/x86_64
   binance-redis:
     image: redis:6.0
     networks:

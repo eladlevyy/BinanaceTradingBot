@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   binance-bot:
+    platform: linux/x86_64
     container_name: binance-bot
     build:
       context: ./
@@ -18,7 +19,7 @@ services:
       - .env
     restart: unless-stopped
     environment:
-      - BINANCE_MODE=test
+      - BINANCE_MODE=live
       # - BINANCE_MODE=live
       - BINANCE_REDIS_HOST=binance-redis
       - BINANCE_REDIS_PORT=6379

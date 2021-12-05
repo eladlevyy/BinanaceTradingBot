@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   binance-bot:
+    platform: linux/x86_64
     container_name: binance-bot
     image: chrisleekr/binance-trading-bot:latest
     networks:
@@ -49,7 +50,7 @@ services:
 
   binance-mongo:
     container_name: binance-mongo
-    image: mongo:3.2.20-jessie
+    image: mongo:3.6.23
     restart: unless-stopped
     networks:
       - internal

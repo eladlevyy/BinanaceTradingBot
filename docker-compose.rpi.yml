@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   binance-bot:
+    platform: linux/x86_64
     container_name: binance-bot
     image: chrisleekr/binance-trading-bot:latest
     networks:

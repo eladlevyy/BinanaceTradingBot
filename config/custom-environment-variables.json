@@ -3,8 +3,8 @@
   "tz": "BINANCE_TZ",
   "binance": {
     "live": {
-      "apiKey": "BINANCE_LIVE_API_KEY",
-      "secretKey": "BINANCE_LIVE_SECRET_KEY"
+      "apiKey": "9DV5Grf7uEAgKUUNcprpVO2uz69Anh1er0NdIfHbn6hxUpAT03I4zxKZvUaMGfda",
+      "secretKey": "ojGIAeKLcEja7haF4Se6FnUG7ujCd1VnoIm75uc979DQZmgiFr3YxScz7y5mmrkb"
     },
     "test": {
       "apiKey": "BINANCE_TEST_API_KEY",
